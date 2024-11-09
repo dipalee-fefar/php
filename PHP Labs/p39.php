@@ -1,0 +1,28 @@
+<?php
+ $x=10;
+ $y=20;
+ $z=15;
+ 
+ if(x>y)
+ {
+     if(x>z)
+     {
+         echo("max="+x);
+     }
+     else 
+     {
+         echo("max="+z);
+     }
+ }
+ else
+ {
+     if(y>z)
+     {
+         echo("max="+y);
+     }
+     else
+     {
+         echo("max="+z);
+     }
+ }
+?>
